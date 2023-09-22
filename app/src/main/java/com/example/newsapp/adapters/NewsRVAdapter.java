@@ -1,4 +1,4 @@
-package com.example.newsapp;
+package com.example.newsapp.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.newsapp.activities.NewsDetailActivity;
+import com.example.newsapp.R;
+import com.example.newsapp.domain.Articles;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

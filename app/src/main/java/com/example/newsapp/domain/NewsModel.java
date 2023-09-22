@@ -1,4 +1,4 @@
-package com.example.newsapp;
+package com.example.newsapp.domain;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,6 @@
-package com.example.newsapp;
+package com.example.newsapp.retrofit;
+
+import com.example.newsapp.domain.NewsModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

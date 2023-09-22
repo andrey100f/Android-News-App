@@ -1,4 +1,4 @@
-package com.example.newsapp;
+package com.example.newsapp.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.newsapp.domain.CategoryRVModel;
+import com.example.newsapp.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

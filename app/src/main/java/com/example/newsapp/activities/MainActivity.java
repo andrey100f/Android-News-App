@@ -1,4 +1,4 @@
-package com.example.newsapp;
+package com.example.newsapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,6 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.example.newsapp.R;
+import com.example.newsapp.retrofit.RetrofitAPI;
+import com.example.newsapp.adapters.CategoryRVAdapter;
+import com.example.newsapp.adapters.NewsRVAdapter;
+import com.example.newsapp.domain.Articles;
+import com.example.newsapp.domain.CategoryRVModel;
+import com.example.newsapp.domain.NewsModel;
 
 import java.util.ArrayList;
 
